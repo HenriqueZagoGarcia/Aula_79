@@ -1,0 +1,24 @@
+/* Chamar a tag input e dar a ela margin de 10px */
+input
+{
+    margin: 10px;
+}
+
+/* Chamar o id enviar e dar a ele margin-top e 
+margin-bottom de 20px */
+#enviar
+{
+    margin-top: 20px;
+    margin-bottom: 20 px;
+}
+
+/* Chamar o id organizar e dar a ele:
+display: none;
+margin-top: 20px;
+margin-bottom: 20px;*/
+#organizar
+{
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

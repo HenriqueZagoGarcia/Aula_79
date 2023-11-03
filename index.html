@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <title>Aula 79</title>
+
+       <!-- Chamar o link do CSS -->
+       <link rel="stylesheet" type="text/css" href="style.css">
+
+
+       <!-- Chamar o script do JS -->
+       <script src="main.js"> </script>
+
+</head>
+<body>
+
+    <!-- Chamar a tag center aqui -->
+    <center>
+        <h3 style="margin-top: 20px; margin-bottom: 20px;">
+        Lista de alunos em minha sala 
+        </h3>
+        
+        <div>
+         <span>1</span>
+         <input type="text" placeholder="Nome do aluno" id="aluno1">
+         <br>
+
+         <span>2</span>
+         <input type="text" placeholder="Nome do aluno" id="aluno2">
+         <br>
+         
+        <!-- Incluir span 3 e 4 -->
+        <span>3</span>
+        <input type="text" placeholder="Nome do aluno" id="aluno3">
+        <br>
+
+        <span>4</span>
+        <input type="text" placeholder="Nome do aluno" id="aluno4">
+        <br>
+
+        </div>
+
+        <!-- Criar um botão de enviar com a função "submit()" no evento onclick -->
+        <button onclick="submit()" id="enviar">Enviar</button>
+
+
+        <!-- Criar uma tag div com o id="displayName" e style="font-weight: bold;" 
+           Essa div será utilizada para exibir os nomes dosalunos.-->
+        <div id="displayName" style="font-weight: bold;"></div>
+
+        <!-- Criar um botão com o evento onclick="sorting()" e o id="organizar" -->
+        <button onclick="sorting()" id="organizar">Organizar</button>
+
+        <!-- Fechar a tag center aqui -->
+    </center>
+    
+</body>
+</html>
